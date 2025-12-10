@@ -1,0 +1,66 @@
+{
+  "productA": {
+    "id": "glowboost-vitamin-c-serum",
+    "name": "GlowBoost Vitamin C Serum",
+    "ingredients": [
+      "Vitamin C",
+      "Hyaluronic Acid"
+    ],
+    "benefits": [
+      "Brightening",
+      "Fades dark spots"
+    ],
+    "price": 699
+  },
+  "productB": {
+    "id": "luminex-vitamin-c-serum",
+    "name": "Luminex Vitamin C Serum",
+    "ingredients": [
+      "Vitamin C",
+      "Aloe Vera"
+    ],
+    "benefits": [
+      "Brightening",
+      "Hydration"
+    ],
+    "price": 749
+  },
+  "comparisons": [
+    {
+      "metric": "concentration",
+      "productA": "10% Vitamin C",
+      "productB": "8% Vitamin C",
+      "notes": "Higher concentration may be stronger."
+    },
+    {
+      "metric": "ingredients",
+      "productA": [
+        "Vitamin C",
+        "Hyaluronic Acid"
+      ],
+      "productB": [
+        "Vitamin C",
+        "Aloe Vera"
+      ],
+      "notes": "Overlap indicates similar active profile."
+    },
+    {
+      "metric": "benefits",
+      "productA": [
+        "Brightening",
+        "Fades dark spots"
+      ],
+      "productB": [
+        "Brightening",
+        "Hydration"
+      ],
+      "notes": "Choose based on your need."
+    },
+    {
+      "metric": "price",
+      "productA": 699,
+      "productB": 749,
+      "notes": "Difference: 50"
+    }
+  ]
+}

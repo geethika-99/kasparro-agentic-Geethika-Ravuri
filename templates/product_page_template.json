@@ -1,0 +1,29 @@
+{
+  "template_id": "product_page_v1",
+  "fields": {
+    "title": {
+      "source": "title-block"
+    },
+    "short_description": {
+      "depends_on": [
+        "benefits-block",
+        "usage-block"
+      ],
+      "rules": [
+        "join_sentences",
+        "limit_chars:300"
+      ]
+    },
+    "price": {
+      "source": "price-block"
+    },
+    "content_blocks": {
+      "blocks": [
+        "benefits-block",
+        "ingredients-block",
+        "usage-block",
+        "safety-block"
+      ]
+    }
+  }
+}

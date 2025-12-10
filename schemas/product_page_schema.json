@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": [
+    "product_id",
+    "title",
+    "short_description",
+    "price",
+    "ingredients",
+    "benefits",
+    "usage",
+    "safety"
+  ],
+  "properties": {
+    "product_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "short_description": {
+      "type": "string"
+    },
+    "price": {
+      "type": "object",
+      "required": [
+        "amount",
+        "currency",
+        "display"
+      ],
+      "properties": {
+        "amount": {
+          "type": "number"
+        },
+        "currency": {
+          "type": "string"
+        },
+        "display": {
+          "type": "string"
+        }
+      }
+    },
+    "ingredients": {
+      "type": "array"
+    },
+    "benefits": {
+      "type": "array"
+    },
+    "usage": {
+      "type": "string"
+    },
+    "safety": {
+      "type": "string"
+    }
+  }
+}

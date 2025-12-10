@@ -1,0 +1,19 @@
+{
+  "name": "Luminex Vitamin C Serum",
+  "concentration": "8% Vitamin C",
+  "skin_type": [
+    "Normal",
+    "Dry"
+  ],
+  "ingredients": [
+    "Vitamin C",
+    "Aloe Vera"
+  ],
+  "benefits": [
+    "Brightening",
+    "Hydration"
+  ],
+  "usage": "Apply once daily at night",
+  "side_effects": "None commonly reported",
+  "price": "₹749"
+}

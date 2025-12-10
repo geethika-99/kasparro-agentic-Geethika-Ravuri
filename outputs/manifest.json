@@ -1,0 +1,16 @@
+{
+  "manifest": [
+    {
+      "file": "product_page.json",
+      "sha256": "d4d1fbf09ffac02788971084ad93f2e97d1b47bbb820b581958a39b6f95754f6"
+    },
+    {
+      "file": "faq.json",
+      "sha256": "23f25b0e8fc0fa8c83ff41a258aaa128cb3076485ef4b4ccbde2034a4b4d5a6d"
+    },
+    {
+      "file": "comparison_page.json",
+      "sha256": "7f3a160f2f620cfa11ca5300a9dc39b1e5e570c973b3cb2dda129316634ca247"
+    }
+  ]
+}

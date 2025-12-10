@@ -1,0 +1,14 @@
+{
+  "template_id": "faq_v1",
+  "fields": {
+    "product_id": {
+      "source": "product.id"
+    },
+    "product_name": {
+      "source": "product.name"
+    },
+    "faq": {
+      "source": "faq_blocks"
+    }
+  }
+}

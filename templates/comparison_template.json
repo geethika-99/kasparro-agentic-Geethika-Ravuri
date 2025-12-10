@@ -1,0 +1,14 @@
+{
+  "template_id": "comparison_v1",
+  "fields": {
+    "productA": {
+      "source": "productA"
+    },
+    "productB": {
+      "source": "productB"
+    },
+    "comparisons": {
+      "source": "comparison_blocks"
+    }
+  }
+}
